@@ -1,6 +1,6 @@
 body {
-  margin: 0% 0% 0% 0%;
-  padding: 0%;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
   /* background-color: rgb(238, 217, 217); */
   scroll-behavior: smooth;
@@ -247,4 +247,57 @@ footer {
 }
 .icons {
   font-size: 30px;
+}
+
+.res_projectlinks
+{
+  display: none;
+}
+
+
+@media screen and (max-width:425px)
+{
+  .navbarlinks
+  {
+      visibility: hidden;
+  }
+  h3
+  {
+      margin:10px;
+      font-size:medium;
+  }
+  .abtproject
+  {
+      display:none;
+  }
+  li
+  {
+      text-decoration: none;
+  }
+  .res_projectlinks
+  {
+      display: unset;
+  }
+  .pro
+  {
+      display: flex;
+      flex-direction: column;
+  }
+.wholeskills p
+{
+  font-size: small;
+}
+
+
+.myimage
+{
+      height: 250px;
+  width: 150px;
+}
+body
+{
+      text-align:center;
+
+}
+
 }
